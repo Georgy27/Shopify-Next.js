@@ -11,3 +11,5 @@ export interface ApiConfig {
   apiUrl: string;
   fetch<T>(options: ApiFetcherOptions): Promise<ApiFetcherResults<T>>;
 }
+
+console.log('test');
